@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<met http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<link rel="stylesheet"  href="reset01.css">
+	<link rel="stylesheet"  href="style.css">
+	<title>"Desafio Alura( Oracle Next Education)</title>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<main>
+
+    <div class="container">
+    	<div class="left">
+    	     <input type="text" id="textoIncriptado" placeholder="DIGITE SEU TEXTO:">
+    	</div>
+
+    	<div class="right">
+    		 <img src="menino.png" class="img"> 
+    		 <h1> Nenhuma mensagem foi encontrada!</h1>
+            
+            <textarea rows="10" cols="70" id="textoDesencriptado" placeholder="Digite aqui o texto que vc deseja criptografar ou descriptografar ! "></textarea>
+            
+
+         <div>
+	          <button type="button" id="btn-Copiar">Copiar</button>
+	     </div>
+
+         </div>   
+        
+	
+        <div>
+        	<p class="simbolo">	
+               &#161;SOMENTE LETRAS MAIÚSCULAS E SEM ACENTO</p>
+	         <button type="button" id="btn-Encriptado">Encriptar</button>
+	         <button type="button" id="btn-Desencriptado">Desencriptar</button>
+       </div>
+
+       
+
+	</div>
+
+	</main>
+
+	</body>
+
+	<script>
+		var btn = document.querySelector("#btn-Encriptado");
+		btn.onclick = encriptar;
+		var btn2 = document.querySelector("#btn-Desencriptado");
+		btn2.onclick = desencriptar;
+		var btn3 = document.querySelector("#btn-Copiar");
+		btn3.onclick = copiar;
+	</script>
+	
+</html>
