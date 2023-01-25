@@ -25,7 +25,7 @@ document.getElementById("textoDesencriptado").innerHTML = textoIncriptado;
 }
 
 function copiar() {
-  var container = document.querySeelector("#textoDesencriptado");
+  var container = document.querySelector("#textoDesencriptado");
   container.select();
   document.execCommand("copy");
 }

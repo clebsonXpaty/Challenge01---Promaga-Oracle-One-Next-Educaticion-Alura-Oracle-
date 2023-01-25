@@ -1,0 +1,162 @@
+body{
+	background: url(preto.png);
+}
+.logoAlura{
+	position: relative;
+	float: left;
+	top: 20px;
+	left: 170px;
+}
+.container{
+
+	width: 1000px;
+	height: 700px;
+	padding: 5px;
+	background: url(azulceu.jpg);
+	margin-left: 150px;
+	border: 1px solid yellowgreen;
+	display: flex;
+}
+#textoIncriptado{
+position: absolute;	
+left: 15%;
+width: 40%;
+height: 200px;
+margin:  20px 60px;
+margin-top: 50px;
+Fill Color Style: Dark blue/dark-blue-300;
+Fill: Solid;
+Font family: Inter;
+Font style: Regular;
+Font size: 32px;
+Line height: 48px;
+text-align: left;
+color: #0A3871;
+text-transform: uppercase;
+display: inline-block;
+outline: none;
+border: none;
+}
+.container .right{
+	height: 650px;
+	float: right;
+	position: absolute;
+	top: auto;
+	left: 68%;
+	border-radius: 24px;
+	width: 300px;
+	border-radius: 24px;
+	border: 1px solid blanchedalmond;
+	background: url(pink.jpeg);	
+
+}
+
+.img{
+	margin-top: 30%;
+	width: 90%;
+	margin-left: 2%;
+	height: auto;
+}
+ #textoDesencriptado{
+float: right;	
+width: 80%;
+height: auto;
+top: 40px;
+radius: 32px;
+margin-right: 20px;
+text-align: left;
+display: inline-block;
+flex-direction: column;
+offset: 0px, 24px;
+Effect style: shadow;
+Effect: Drop shadow;
+text-transform: uppercase;
+padding: auto;
+outline: none;
+box-sizing: initial;
+border: none;
+}
+
+#btn-Copiar{
+	position: relative;
+	top: 75%;
+	left: 30%;
+	width: 150px;
+	height: 40px;
+	border-radius: 10px;
+	padding: 10px 10px;
+	background: #0A3871;
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	cursor: pointer;
+}
+.simbolo{
+	font-size: 10px;
+	position: absolute;
+	top: 85%;
+	left: 15%;
+	background: white;
+}
+
+#btn-Encriptado{
+	position:absolute; 
+    top:95%;
+    left:15%;
+	color: #FFFFFF;
+	background:#0A3871 ;
+	width: 300px;
+	height-hug: Hug(67px);
+	border-radius: 24px;
+	padding: 20px;
+	gap: 8px;
+	transition: 1s all;
+	cursor: pointer;
+
+	
+}
+#btn-Encriptado:hover{
+	background: #F0E68C;
+	color: black;
+}
+#btn-Desencriptado{
+	position:absolute; 
+    top:95%;
+    left:43%;
+	color: #0A3871;
+	background: #D8DFE8;
+	width: 300px;
+	border-radius: 24px;
+	padding: 20px;
+	cursor: pointer;
+}
+#btn-Desencriptado:hover{
+	background: #FF4500;
+	color: black;
+}
+
+.links{
+	position: relative;
+	top: 20%;
+	left: 12%;
+	background: #87CEFA;
+	margin-top: 30px;
+	width: 1010px;
+	height: 150px;
+	color: red;
+	display: inline-block;
+	border: 1px solid blanchedalmond;
+
+}
+.links h2{
+	text-align: center;
+	transition: 1s;
+	color: black;
+}
+.links h2:hover{
+	color:	#8B0000 ;
+}
+
+li {
+  list-style-type: none;
+}

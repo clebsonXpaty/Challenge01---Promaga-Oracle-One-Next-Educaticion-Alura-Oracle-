@@ -11,7 +11,18 @@
 	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
+	<header>
+		
+		
+	</header>
 	<main>
+
+	<div class="logoAlura">
+		    <a href="https://www.alura.com.br/">
+			   <img src="/home/clebson/alura/trabalho_Alura/Vector.png">
+		    </a>
+
+		</div>	
 
     <div class="container">
     	<div class="left">
@@ -21,20 +32,22 @@
     	<div class="right">
     		 <img src="menino.png" class="img"> 
     		 <h1> Nenhuma mensagem foi encontrada!</h1>
+    	 <div>
             
             <textarea rows="10" cols="70" id="textoDesencriptado" placeholder="Digite aqui o texto que vc deseja criptografar ou descriptografar ! "></textarea>
-            
 
-         <div>
-	          <button type="button" id="btn-Copiar">Copiar</button>
+            <button type="button" id="btn-Copiar">Copiar</button>
 	     </div>
 
          </div>   
         
 	
         <div>
-        	<p class="simbolo">	
-               &#161;SOMENTE LETRAS MAIÚSCULAS E SEM ACENTO</p>
+        	<p class="simbolo">
+
+              <ion-icon name="alert-outline"></ion-icon>
+              Somente letra minuscúlas e sem ascento!
+            </p>
 	         <button type="button" id="btn-Encriptado">Encriptar</button>
 	         <button type="button" id="btn-Desencriptado">Desencriptar</button>
        </div>
@@ -44,8 +57,34 @@
 	</div>
 
 	</main>
+	<footer>
+		<section class="links">
+			 <p><h2>Visite nossos canais!</h2></p>
+
+			<ul>
+				<li><ion-icon name="logo-linkedin"></ion-icon>
+                   <a href="https://linkedin.com/in/clebson-alves-desenvolvedorfrontend/">Linkedin</a>
+                </li>
+
+				<li> <ion-icon name="logo-youtube"></ion-icon>
+                    <a href="https://www.youtube.com/channel/UCb0XWmjccWRbHNNSSY_CoKA">YouTube</a>
+                </li>
+                
+				<li>
+                    <ion-icon name="logo-github"></ion-icon> 
+					<a href="https://github.com/clebsonXpaty">GitHub</a>
+				</li>
+			</ul>
+
+		</section>
+		
+	</footer>
 
 	</body>
+
+	<script  type = "module"  src = "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"> 
+	</script> 
+<script  nomodule  src = "https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 	<script>
 		var btn = document.querySelector("#btn-Encriptado");
