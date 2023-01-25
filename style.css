@@ -64,7 +64,7 @@ height: auto;
 top: 40px;
 radius: 32px;
 margin-right: 20px;
-text-align: left;
+text-align: top-left;
 display: inline-block;
 flex-direction: column;
 offset: 0px, 24px;
@@ -75,6 +75,9 @@ padding: auto;
 outline: none;
 box-sizing: initial;
 border: none;
+}
+#textoDesencriptado textarea{
+	text-align: top-left;
 }
 
 #btn-Copiar{
